@@ -1,3 +1,5 @@
 import React from 'react'
+import { Sumador } from './componentes/Sumador'
+
 export default function App()
-    {return(<h1>Holaa</h1>)}
+    {return(<Sumador />)}
