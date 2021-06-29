@@ -22,3 +22,7 @@ deploy:
   script: netlify deploy --dir=dist --prod
   on:
     branche: main
+
+notifications:
+  email:
+    - rioslopezandrea@gmail.com
